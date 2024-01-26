@@ -1,0 +1,26 @@
+a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    i{
+      display: none;
+    }
+    span, i{
+     cursor: pointer;
+    }
+    &:hover{        
+        i{
+            display: block;
+        }
+    }   
+}
+
+@media screen and (max-width: 575px) {
+    a i{
+        display: block;
+    }
+  }
+
+
+
+
